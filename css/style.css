@@ -3,7 +3,47 @@
   font-family: "Helvetica-JDJP";
   src: url(/font/HelveticaNeueLTStd-Th.otf);
 }
-slide
+
+/* EJERCICIO 2  */
+#bulevar img{
+  
+  filter: grayscale(70%);
+}
+#zodiacolors img{
+  
+  filter: grayscale(70%);
+}
+#original img{
+  
+  filter: grayscale(70%);
+}
+
+
+
+/* -------------------------------------------------------- */
+
+/* EJERCICIO 3 */
+
+object{
+  margin-left: 3em;
+  max-width: 15em;
+  max-height: 15em;
+}
+
+/* --------------------------------------- */
+
+/* EJERCICIO 4 */
+
+.lienzo{
+  
+  fill: #457B9D;
+  stroke: #457B9D;
+  stroke-width: 5px;
+  fill-opacity: 0.5;
+  stroke-opacity: 0.9;
+
+}
+/* ------------------------- */
 #cv, #sobre-mi{
   margin: 0em 0em 6em;
 }
@@ -20,7 +60,7 @@ h2 {
 
 header, footer {
   background-color: #A8DADC;
-  height: 6em;
+  height: 10em;
   width: 100%;
   display: flex;
 }
