@@ -44,6 +44,15 @@ object{
 
 }
 /* ------------------------- */
+/* Ejercicio 5 */
+
+#imagen img{
+ 
+  filter: drop-shadow(1em  1em 0.1em #457B9D);
+  
+}
+/* --------------------- */
+
 #cv, #sobre-mi{
   margin: 0em 0em 6em;
 }
